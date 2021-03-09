@@ -1,0 +1,95 @@
+
+
+.title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    padding: 50px;
+    background-color: $color-grey ;
+    justify-content: space-between;
+    height: 60vh ;
+
+    .card-container {
+        justify-content: space-around;
+
+        .blockquote {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            font-style: italic;
+            margin: 0.25em 0;
+            padding: 0.35em 40px;
+            line-height: 1.45;
+            position: relative;
+            color: #383838;
+                   
+        }
+        
+        .blockquote:before {
+            display: block;
+            content: "\201C";
+            font-size: 80px;
+            position: absolute;
+            left: -20px;
+            top: -20px;
+            color: $color-main;
+        }
+
+        .testim-card {
+            align-items: center;
+            padding: 20px;
+
+        }
+
+        .img-test {
+            border: none;
+            width: 30%;
+        }
+
+    }
+
+
+}
+
+.team {
+    padding: 50px;
+    .card-container {
+        align-items: center;
+        margin: 9px;
+        padding: 20px;
+        i {
+            font-size: 30px;
+            margin: 0 10px;
+            color: #909aa3;
+        }
+        i:hover {
+            color: $color-main;
+        }
+    }
+
+    img {
+        border: none;
+        width: 70%;
+    }
+}
+
+.contact {
+   
+    .circle i {
+        margin-top: 9px;
+        color: $color-main;
+        font-size: 60px;
+    }
+    .form {
+        display: flex ;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        
+        .btn {
+            border-radius: 10px;
+        }
+    }
+
+}

@@ -1,3 +1,82 @@
+@charset "UTF-8";
+.title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  padding: 50px;
+  background-color: #f6f6f7;
+  justify-content: space-between;
+  height: 60vh;
+}
+.testimonials .card-container {
+  justify-content: space-around;
+}
+.testimonials .card-container .blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+.testimonials .card-container .blockquote:before {
+  display: block;
+  content: "“";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #009970;
+}
+.testimonials .card-container .testim-card {
+  align-items: center;
+  padding: 20px;
+}
+.testimonials .card-container .img-test {
+  border: none;
+  width: 30%;
+}
+
+.team {
+  padding: 50px;
+}
+.team .card-container {
+  align-items: center;
+  margin: 9px;
+  padding: 20px;
+}
+.team .card-container i {
+  font-size: 30px;
+  margin: 0 10px;
+  color: #909aa3;
+}
+.team .card-container i:hover {
+  color: #009970;
+}
+.team img {
+  border: none;
+  width: 70%;
+}
+
+.contact .circle i {
+  margin-top: 9px;
+  color: #009970;
+  font-size: 60px;
+}
+.contact .form {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.contact .form .btn {
+  border-radius: 10px;
+}
+
 *,
 *::after,
 *::before {
